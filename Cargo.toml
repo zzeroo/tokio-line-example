@@ -1,0 +1,18 @@
+[package]
+name = "tokio-line-example"
+version = "0.1.0"
+authors = ["Stefan Müller <s.mueller@it.kls-glt.de>"]
+
+[dependencies]
+log = "0.3.6"
+futures = "0.1"
+tokio-core = "0.1"
+tokio-proto = { git = "https://github.com/tokio-rs/tokio-proto" }
+tokio-service = { git = "https://github.com/tokio-rs/tokio-service" }
+
+[dev-dependencies]
+env_logger = "0.3.0"
+rand = "0.3.14"
+tokio-timer = { git = "https://github.com/tokio-rs/tokio-timer" }
+tokio-middleware = { git = "https://github.com/tokio-rs/tokio-middleware" }
+service-fn = { git = "https://github.com/tokio-rs/service-fn" }
